@@ -1,0 +1,8 @@
+module MyApp
+{
+  interface Service
+  {
+      string doTheThing(in string inParam);
+      oneway void shutdown();
+  };
+};
